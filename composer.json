@@ -6,8 +6,7 @@
     "autoload": {
         "psr-4": {
             "Baohan\\Tablestore\\": "src/",
-            "Test\\": "tests/",
-            "Aliyun\\OTS\\": "sdk-5.0.3/src/OTS/"
+            "Test\\": "tests/"
         }
     },
     "authors": [
@@ -24,5 +23,8 @@
         "test": [
             "phpunit --bootstrap bootstrap.php tests"
         ]
+    },
+    "require": {
+        "aliyun/aliyun-tablestore-sdk-php": "^5.0"
     }
 }
